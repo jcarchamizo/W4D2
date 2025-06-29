@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Holy Grail con Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container mt-3">
+
+    <!-- HEADER -->
+    <header class="mb-3">
+      <h1 class="display-4">🎬 CineFórum</h1>
+      <p class="lead">Tu revista semanal de cine y series</p>
+    </header>
+
+    <!-- BODY -->
+    <div class="row">
+
+      <!-- NAV LEFT -->
+      <nav class="col-2">
+        <h5>Secciones</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Críticas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Series</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Entrevistas</a></li>
+        </ul>
+      </nav>
+
+      <!-- MAIN -->
+      <main class="col-8">
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-6">
+            <div class="card text-bg-dark hover-card">
+              <img src="https://wallpapercave.com/wp/wp11934537.jpg" class="card-img-top" alt="Dune">
+              <div class="card-body">
+                <h5 class="card-title">Dune: Parte 2</h5>
+                <p class="card-text">Una obra maestra visual que redefine la ciencia ficción.</p>
+                <a href="#" class="btn btn-outline-light">Leer crítica</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-6">
+            <div class="card text-bg-primary hover-card">
+              <div class="card-body">
+                <h5 class="card-title">Top 5 series de 2025</h5>
+                <ul>
+                  <li>The Last Kingdom</li>
+                  <li>Arcane 2</li>
+                  <li>La Casa del Dragón</li>
+                  <li>Black Mirror</li>
+                  <li>Echoes</li>
+                </ul>
+                <a href="#" class="btn btn-light mt-2">Ver lista</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+
+      <!-- ASIDE RIGHT -->
+      <aside class="col-2">
+        <h6 class="text-muted">Publicidad</h6>
+        <div class="card text-bg-warning p-2">
+          <p class="mb-0">🎟️ Suscríbete y gana entradas para el cine</p>
+          <button class="btn btn-dark btn-sm mt-2">Participar</button>
+        </div>
+      </aside>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="mt-4">
+      <p>&copy; 2025 CineFórum | Diseñado con ❤️ y Bootstrap</p>
+    </footer>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
